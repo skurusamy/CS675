@@ -1,0 +1,30 @@
+pip3 install mediapipe==0.8.7.1
+cvzone use -  1.4.1
+    - computer vision library used to run image processing and AI functions. 
+    - internally used openCV and numpy. 
+openCV
+    - OpenCV is a Python library that allows you to perform image processing and computer vision tasks.
+    - It provides a wide range of features, including object detection, face recognition, and tracking.
+mediapipe - 0.8.7.1
+    - python package 
+    - customizable ML solutions for live and streaming media
+    - backend of our hand cracking
+
+pyinput:
+    Simulate key press in other apps. 
+
+How do we know which key is pressed?
+    1. Find x, y coordinates of the key and find the position of our hand and see if our finger is in that position. 
+        if we scale the image, then we have to manually again find the x,y coordinates to use it in our program. 
+    2. Intead we create a rectangle using openCV text and then create a button. 
+
+
+
+
+
+Steps:
+1. Open the camera via webcam
+2. Detect hand using handDetector
+3. Create Keyboard using Opencv -> create rectangle and buttons
+4. Check if the finger is near our button. 
+5. Simulate Keyboard in other apps

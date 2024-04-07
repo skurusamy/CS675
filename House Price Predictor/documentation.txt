@@ -1,0 +1,30 @@
+Install basic DataScience stacks
+    numpy - primarily used for creating arrays or matricies. for smaller dataset like 50k
+    Pandas - used for data manipulation and analysis. for larger dataset like 500k and more
+        - mainly used for reading/writing data (as csv/json) into dataframes used in the programs. 
+    matplotlib - visulazation in python for basic statistical plots. 
+        matplotlib.pyplot - used like matlab. Used for creating a figure, plotting a particular position in the figure.  
+    seaborn - more complex statistical plots can used using seaborn
+    scikit-learn 
+        - machine learning tool used for modelling like  classification, regression, clustering and dimensionality reduction. 
+        - In other words, its used for prediction, classification, and pattern recognition.
+
+
+Data sets used is california pricing dataset from kaggle 
+    - https://www.kaggle.com/datasets/camnugent/california-housing-prices
+    - download housing csv file. 
+
+
+Create a jupyter notebook using extension ipynb
+
+
+
+Questions
+
+****Learn machine learning concepts***
+
+1. What is linear regression?
+2. What is Random Forest regression?
+3. Why log normalization was used for skewed data?
+4. What is the parameteres in GridSearch CV mean?
+5. How is correlation created internally?
